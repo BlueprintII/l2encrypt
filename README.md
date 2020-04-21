@@ -13,6 +13,8 @@ composer require blueprint/l2encrypt
 ```PHP
 <?php
 
+require __DIR__ . '/vendor/autoload.php';
+
 use Blueprint\L2encrypt;
 
 $value = 'EncryptMe';
@@ -28,6 +30,8 @@ echo $encryptedValue; // Output: 0x35d069fe4fe03fe6f7dbb4b578e2c4c4
 ```PHP
 <?php
 
+require __DIR__ . '/vendor/autoload.php';
+
 use Blueprint\L2encrypt;
 
 $_POST['password'] = 'test';
@@ -39,6 +43,8 @@ echo $encryptedPassword; // Output: 0xb53b56edac3b1d1d28b197975ac0e6e6
 
 ```PHP
 <?php
+
+require __DIR__ . '/vendor/autoload.php';
 
 use Blueprint\L2encrypt;
 
