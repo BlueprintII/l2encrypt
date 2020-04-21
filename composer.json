@@ -1,0 +1,19 @@
+{
+    "name": "blueprint/l2encrypt",
+    "description": "LineageII Password Encrypt",
+	    "keywords": [
+        "LineageII",
+        "encrypt",
+		"password"
+    ],
+    "homepage": "https://github.com/BlueprintII/l2encrypt",
+    "license": "MIT",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Blueprint\\L2encrypt\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
