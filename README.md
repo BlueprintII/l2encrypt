@@ -1,4 +1,4 @@
-# L2Encrypt
+# L2encrypt
 
 LineageII PHP Encryption Library.
 
