@@ -2,8 +2,12 @@
 LineageII PHP Encryption Library
 
 ## Usage
-```$PHP
-$password = L2Encrypt::userPassword('test');
+```PHP
+<?php
+
+use Blueprint\L2encrypt;
+
+$password = L2encrypt::userPassword('test');
 echo $password;
 
 //$b = 'test';

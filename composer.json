@@ -11,7 +11,7 @@
     "require": {},
 	"autoload": {
 		"psr-4": {
-			"Blueprint\\L2encrypt\\": "src/"
+			"Blueprint\\": "src/"
 		}
 	},
 	"minimum-stability": "dev",
