@@ -1,8 +1,8 @@
 <?php
 
-namespace BlueprintII\L2Encrypt;
+namespace Blueprint;
 
-class L2Encrypt
+class L2encrypt
 {
     /**
      * LineageII Encryption Master method.
